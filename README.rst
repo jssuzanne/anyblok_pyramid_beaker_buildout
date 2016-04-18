@@ -80,7 +80,7 @@ By the way if you want to try the demo, here are the steps to follow.
 
 * Launch the pyramid server
 
-    ./bin/anyblok_pyramid -c anyblok_pyramid.cfg
+    ./bin/anyblok_pyramid -c anyblok_pyramid_beaker.cfg
 
 Look at the `doc` directory of the main Anyblok / Pyramid / Beaker respository for more details.
 
