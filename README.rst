@@ -10,12 +10,12 @@ The main goal of this recipe is to help you in :
 * Install all required dependencies in an isolated environment that does not mess up your main
   python path
 
-.. _anyblok_pyramid: https://bitbucket.org/jssuzanne/anyblok_pyramid_beaker
+.. _anyblok_pyramid: https://github.com/AnyBlok/AnyBlok_Pyramid_Beaker
 
 System dependencies
 -------------------
 
-Anyblok needs at least python 3.
+Anyblok needs at least python 3.3.
 
 You'll also need the python3-dev package in order to compile some dependencies
 For example on debian based system (replace X by appropriate version)
@@ -47,7 +47,7 @@ Create a directory to store your project and change into it
 
 Clone the current repository and give it your project name
 
-    hg clone ssh://hg@bitbucket.org/jssuzanne/anyblok_pyramid_beaker_buildout demo
+    hg clone https://github.com/jssuzanne/anyblok_pyramid_beaker_buildout demo
 
 Change to the project directory, bootstrap and build it
 
@@ -84,7 +84,7 @@ By the way if you want to try the demo, here are the steps to follow.
 
 Look at the `doc` directory of the main Anyblok / Pyramid / Beaker respository for more details.
 
-https://bitbucket.org/jssuzanne/anyblok_pyramid_beaker/
+doc.anyblok-pyramid-beaker.anyblok.org
 
 Contributing (hackers needed!)
 ==============================
